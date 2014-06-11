@@ -6,7 +6,7 @@ use Data::Dumper;
 use feature qw(say);
 
 
-my $file = 'rosalind_gc.txt';
+my $file = 'rosalind_files/rosalind_gc.txt';
 open (my $fh, '<', $file) or die "Could not open file '$file' $!";
 
 my (%sequence_hash, $header, $seq, $count );
